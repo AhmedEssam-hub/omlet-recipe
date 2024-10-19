@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: "outfit";
+}
+
+body{
+    background-color: rgb(243, 229, 216);
+    font-size: 16px;
+}
+
+h1{
+    font-family: "Young Serif";
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+h2{
+    color: rgb(128, 71, 49);
+    font-family: "Young Serif";
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+label{
+    color: rgb(109, 33, 64);
+    font-weight: bolder;
+}
+
+section{
+    border-radius: 10px;
+    background-color: rgb(255, 247, 252);
+    border-radius: 25px;
+    padding: 20px 20px 5px 20px;
+}
+
+main{
+    width: 76%;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    max-width: 1440px;
+}
+
+table{
+    width: 100%;
+}
+
+ol li::marker{
+    color: rgb(128, 71, 49);
+    font-weight: 600;
+}
+
+.prep li::marker{
+    color: rgb(109, 33, 64);
+    font-size: 0.75em;
+    
+}
+
+.ingred li::marker{
+    color: rgb(128, 71, 49);
+    font-size: 0.75em;
+}
+
+ul li{
+    padding-left: 20px;
+    margin-bottom: 1em;
+}
+
+ol li{
+    padding-left: 10px;
+    margin-bottom: 0.75em;
+}
+
+span{
+    color: rgb(86, 83, 81);
+    font-weight: 700;
+}
+
+@media(max-width: 375px){
+    main{
+        max-width: 375px;
+    }
+}
